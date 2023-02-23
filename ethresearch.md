@@ -24,7 +24,7 @@ The ZK Median provides a tamper-resistant median value that can be used by DeFi 
 
 # Proof of Concept
 
-A proof-of-concept implementation of the ZK Median scheme can be found in the GitHub repository [zk-medianizer](https://github.com/twister-dev/zk-medianizer/). The repository includes the circuits used in the implementation, which can be found in the [circuits](https://github.com/twister-dev/zk-medianizer/tree/dc16b287b7722b2141599c8bdda3276a0366c767/circuits) directory, as well as the unit tests, which can be found in the [unit tests](https://github.com/twister-dev/zk-medianizer/tree/dc16b287b7722b2141599c8bdda3276a0366c767/test) directory.
+A proof-of-concept implementation of the ZK Median scheme can be found in the GitHub repository [zk-medianizer](https://github.com/twister-dev/zk-medianizer/). The repository includes the circuits used in the implementation, which can be found in the [circuits](https://github.com/twister-dev/zk-medianizer/tree/950caf54b207f3351a0169b28fab4cce7dd9fe5b/circuits) directory, as well as the unit tests, which can be found in the [unit tests](https://github.com/twister-dev/zk-medianizer/tree/950caf54b207f3351a0169b28fab4cce7dd9fe5b/test) directory.
 
 The proof-of-concept implementation relies on the [circomlib-matrix](https://github.com/socathie/circomlib-matrix) library, which is used to perform matrix multiplication and sort the resulting vector. The implementation demonstrates the feasibility of the ZK Median scheme and provides a starting point for future research and development. However, as the author notes, the implementation is still in the experimental stage and requires further refinement to ensure robustness and efficiency.
 
